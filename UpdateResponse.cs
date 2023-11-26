@@ -1,4 +1,4 @@
-﻿namespace heroquest.sdk.network
+﻿namespace heroquest.data
 {
     public class UpdateResponse
     {

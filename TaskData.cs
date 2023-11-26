@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace heroquest.sdk.network
+namespace heroquest.data
 {
     public enum TaskType
     {

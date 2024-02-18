@@ -11,7 +11,7 @@ namespace heroquest.data
         public string FocusedItem { get; set; }
         public string LeftSideTitle { get; set; }
         public string LeftSideText { get; set; }
-        public IEnumerable<TileData> Tiles { get; set; } = Enumerable.Empty<TileData>();
-        public IEnumerable<ItemData> Items { get; set; } = Enumerable.Empty<ItemData>();
+        public List<TileData> Tiles { get; set; } = new List<TileData>();
+        public List<ItemData> Items { get; set; } = new List<ItemData>();
     }
 }

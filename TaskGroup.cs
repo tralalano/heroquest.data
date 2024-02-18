@@ -8,6 +8,6 @@ namespace heroquest.data
 {
     public class TaskGroup
     {
-        public IEnumerable<TaskData> Tasks { get; set; } = Enumerable.Empty<TaskData>();
+        public IEnumerable<TaskData> Tasks { get; set; } = new List<TaskData>();
     }
 }

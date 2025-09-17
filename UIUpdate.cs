@@ -18,9 +18,12 @@ namespace heroquest.data
     {
         public UIActionDisplayType DisplayType { get; set; }
         public string Title { get; set; }
-        public string Text { get; set; }
-        public string ConfirmAction { get; set; }
-        public string ConfirmCaption { get; set; }
-        public IEnumerable<PlayerAction> PlayerActions { get; set; }
+        public string BackgroundColor { get; set; }
+        public string BackgroundTexture { get; set; }
+        public string WaitingText { get; set; }
+        //public string Text { get; set; }
+        //public string ConfirmAction { get; set; }
+        //public string ConfirmCaption { get; set; }
+        public IEnumerable<MenuItem> MenuItems { get; set; }
     }
 }
